@@ -1,16 +1,17 @@
 def pesquisa_binaria(lista, item):
-    baixo = 0
-    alto = len(lista) -1
+    posicaoMaisBaixa = 0
+    posicaoMaisAlta = len(lista) -1
 
-    while baixo <= alto:
-        meio = (baixo + alto) / 2
+    while posicaoMaisBaixa <= posicaoMaisAlta:
+        meio = (posicaoMaisBaixa + posicaoMaisAlta) / 2
+        meio = int(meio)
         chute = lista[meio]
         if chute ==item:
             return meio
         if chute > item:
-            alto = meio - 1
+            posicaoMaisAlta = meio - 1
         else:
-            baixo = meio - 1
+            posicaoMaisBaixa = meio + 1
 
     return None
 
