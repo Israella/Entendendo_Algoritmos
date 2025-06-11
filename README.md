@@ -25,15 +25,15 @@ Além disso, este repositório pode servir como uma vitrine do meu comprometimen
 ## 📁 Estrutura do Repositório
 
 entendendo-algoritmos/
-│
-├── capitulo-01-busca-binaria/
-├── capitulo-02-ordenacao/
-├── capitulo-03-recursao/
-├── capitulo-04-divisao-e-conquista/
-├── capitulo-05-hash/
-├── capitulo-06-grafos/
-├── capitulo-07-algoritmo-guloso/
-├── capitulo-08-programacao-dinamica/
-└── capitulo-09-k-nn/
+- capitulo-01-busca-binaria/
+- capitulo-02-ordenacao/
+- capitulo-03-recursao/
+- capitulo-04-divisao-e-conquista/
+- capitulo-05-hash/
+- capitulo-06-grafos/
+- capitulo-07-algoritmo-guloso/
+- capitulo-08-programacao-dinamica/
+- capitulo-09-k-nn/
+  
 ## 📌 Observações
 Este projeto é 100% educacional e está em desenvolvimento contínuo. Sinta-se à vontade para sugerir melhorias ou abrir issues!
